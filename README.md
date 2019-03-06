@@ -6,6 +6,10 @@ You can find documentation for installing the correct distribution for your oper
 * https://www.python.org/
 * https://nodejs.org/
 
+You will also need to install the Python developer libraries for your system:
+    
+    apt-get install python-dev
+
 ### Back end
 
 The back end is a python flask application, using sqlite as a database.
@@ -29,6 +33,7 @@ Activate the environment:
 Install the dependencies:
 
     pip3 install -r requirements.txt
+    pip3 install -r requirements-dev.txt
 
 Build the python dev environment:
 
